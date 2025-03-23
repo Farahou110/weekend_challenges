@@ -5,7 +5,7 @@ def is_isogram(text):
          if text[i]==text[j]:
             return False
    return True
-prompt=input("Enter text please")
+prompt=input("Enter text please ")
 text=prompt
 print(is_isogram(text))
 
